@@ -1,0 +1,65 @@
+TerrainEdge (Beta Release 0.1)
+
+
+By Tim Leonard
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+Prerequisites:
+
+- You have a grid of "Terrain" type objects in your scene with 
+  matching position on the Y-Axis.
+ 
+- The terrain tiles are square and are positioned in increments equal 
+  to the terrain's size. (so that they are placed edge-to-edge)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+Installation Instructions:
+
+
+
+1. Import "TerrainEdge.unitypackage" into your project.
+
+2. Add a terrain object to your scene (double resolution and double 
+   the width/height of your terrain tiles).
+
+3. With the new terrain selected, apply the TerrainEdge component. 
+   (Menu: "Component" > "Terrain" > "Terrain Edge").
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+Usage instructions:
+
+1. Drag and drop one of your existing terrain objects (from the 
+   scene "heirarchy" inspector) into the "Target Terrain: " field 
+   of the TerrainEdge component.
+
+2. Click "Import" to import the heightmap data from the target 
+   terrain, the next terrain on each axis and the final piece 
+   of terrain to create the square. (Effectively loading the 
+   heightmaps from 4 tiles onto your TerrainEdge terrain.)
+
+3. Edit the TerrainEdge terrain's heightmap, fix the seams, etc.
+
+4. Click "Export" to export the heightmap data back to the original 
+   terrain tiles.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+Contributions/License/etc:
+
+Free to use, no restrictions. 
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Thanks:
+
+To the Unity team for creating an IDE with great potential.
+To sixtimesnothing for being an inspiration to the Unity community.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
